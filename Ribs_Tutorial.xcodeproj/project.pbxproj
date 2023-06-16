@@ -16,6 +16,21 @@
 		5AD341F62A3C3CEF00A4339D /* Ribs_TutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD341F52A3C3CEF00A4339D /* Ribs_TutorialTests.swift */; };
 		5AD342002A3C3CEF00A4339D /* Ribs_TutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD341FF2A3C3CEF00A4339D /* Ribs_TutorialUITests.swift */; };
 		5AD342022A3C3CEF00A4339D /* Ribs_TutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD342012A3C3CEF00A4339D /* Ribs_TutorialUITestsLaunchTests.swift */; };
+		5AD342102A3C3D0D00A4339D /* RIBs in Frameworks */ = {isa = PBXBuildFile; productRef = 5AD3420F2A3C3D0D00A4339D /* RIBs */; };
+		5AD342152A3C3D2600A4339D /* LaunchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD342112A3C3D2600A4339D /* LaunchRouter.swift */; };
+		5AD342162A3C3D2600A4339D /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD342122A3C3D2600A4339D /* LaunchViewController.swift */; };
+		5AD342172A3C3D2600A4339D /* LaunchBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD342132A3C3D2600A4339D /* LaunchBuilder.swift */; };
+		5AD342182A3C3D2600A4339D /* LaunchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD342142A3C3D2600A4339D /* LaunchInteractor.swift */; };
+		5AD3421B2A3C3DB700A4339D /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3421A2A3C3DB700A4339D /* AppComponent.swift */; };
+		5AD342202A3C3EDF00A4339D /* LoggedInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3421C2A3C3EDF00A4339D /* LoggedInRouter.swift */; };
+		5AD342212A3C3EDF00A4339D /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3421D2A3C3EDF00A4339D /* LoggedInViewController.swift */; };
+		5AD342222A3C3EDF00A4339D /* LoggedInBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3421E2A3C3EDF00A4339D /* LoggedInBuilder.swift */; };
+		5AD342232A3C3EDF00A4339D /* LoggedInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD3421F2A3C3EDF00A4339D /* LoggedInInteractor.swift */; };
+		5AD3422A2A3C3F1200A4339D /* LoggedOutRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD342262A3C3F1200A4339D /* LoggedOutRouter.swift */; };
+		5AD3422B2A3C3F1200A4339D /* LoggedOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD342272A3C3F1200A4339D /* LoggedOutViewController.swift */; };
+		5AD3422C2A3C3F1200A4339D /* LoggedOutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD342282A3C3F1200A4339D /* LoggedOutBuilder.swift */; };
+		5AD3422D2A3C3F1200A4339D /* LoggedOutInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD342292A3C3F1200A4339D /* LoggedOutInteractor.swift */; };
+		5AD342302A3C4B6F00A4339D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5AD3422F2A3C4B6F00A4339D /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +64,19 @@
 		5AD341FB2A3C3CEF00A4339D /* Ribs_TutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ribs_TutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD341FF2A3C3CEF00A4339D /* Ribs_TutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ribs_TutorialUITests.swift; sourceTree = "<group>"; };
 		5AD342012A3C3CEF00A4339D /* Ribs_TutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ribs_TutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5AD342112A3C3D2600A4339D /* LaunchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchRouter.swift; sourceTree = "<group>"; };
+		5AD342122A3C3D2600A4339D /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		5AD342132A3C3D2600A4339D /* LaunchBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchBuilder.swift; sourceTree = "<group>"; };
+		5AD342142A3C3D2600A4339D /* LaunchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchInteractor.swift; sourceTree = "<group>"; };
+		5AD3421A2A3C3DB700A4339D /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
+		5AD3421C2A3C3EDF00A4339D /* LoggedInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInRouter.swift; sourceTree = "<group>"; };
+		5AD3421D2A3C3EDF00A4339D /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
+		5AD3421E2A3C3EDF00A4339D /* LoggedInBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInBuilder.swift; sourceTree = "<group>"; };
+		5AD3421F2A3C3EDF00A4339D /* LoggedInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInInteractor.swift; sourceTree = "<group>"; };
+		5AD342262A3C3F1200A4339D /* LoggedOutRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutRouter.swift; sourceTree = "<group>"; };
+		5AD342272A3C3F1200A4339D /* LoggedOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutViewController.swift; sourceTree = "<group>"; };
+		5AD342282A3C3F1200A4339D /* LoggedOutBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutBuilder.swift; sourceTree = "<group>"; };
+		5AD342292A3C3F1200A4339D /* LoggedOutInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD342102A3C3D0D00A4339D /* RIBs in Frameworks */,
+				5AD342302A3C4B6F00A4339D /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +129,13 @@
 		5AD341DD2A3C3CED00A4339D /* Ribs_Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				5AD342252A3C3EED00A4339D /* LoggedOut */,
+				5AD342242A3C3EE400A4339D /* LoggedIn */,
+				5AD342192A3C3D2A00A4339D /* Launch */,
 				5AD341DE2A3C3CED00A4339D /* AppDelegate.swift */,
 				5AD341E02A3C3CED00A4339D /* SceneDelegate.swift */,
 				5AD341E22A3C3CED00A4339D /* ViewController.swift */,
+				5AD3421A2A3C3DB700A4339D /* AppComponent.swift */,
 				5AD341E42A3C3CED00A4339D /* Main.storyboard */,
 				5AD341E72A3C3CEF00A4339D /* Assets.xcassets */,
 				5AD341E92A3C3CEF00A4339D /* LaunchScreen.storyboard */,
@@ -127,6 +161,39 @@
 			path = Ribs_TutorialUITests;
 			sourceTree = "<group>";
 		};
+		5AD342192A3C3D2A00A4339D /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				5AD342112A3C3D2600A4339D /* LaunchRouter.swift */,
+				5AD342122A3C3D2600A4339D /* LaunchViewController.swift */,
+				5AD342132A3C3D2600A4339D /* LaunchBuilder.swift */,
+				5AD342142A3C3D2600A4339D /* LaunchInteractor.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		5AD342242A3C3EE400A4339D /* LoggedIn */ = {
+			isa = PBXGroup;
+			children = (
+				5AD3421C2A3C3EDF00A4339D /* LoggedInRouter.swift */,
+				5AD3421D2A3C3EDF00A4339D /* LoggedInViewController.swift */,
+				5AD3421E2A3C3EDF00A4339D /* LoggedInBuilder.swift */,
+				5AD3421F2A3C3EDF00A4339D /* LoggedInInteractor.swift */,
+			);
+			path = LoggedIn;
+			sourceTree = "<group>";
+		};
+		5AD342252A3C3EED00A4339D /* LoggedOut */ = {
+			isa = PBXGroup;
+			children = (
+				5AD342262A3C3F1200A4339D /* LoggedOutRouter.swift */,
+				5AD342272A3C3F1200A4339D /* LoggedOutViewController.swift */,
+				5AD342282A3C3F1200A4339D /* LoggedOutBuilder.swift */,
+				5AD342292A3C3F1200A4339D /* LoggedOutInteractor.swift */,
+			);
+			path = LoggedOut;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +210,10 @@
 			dependencies = (
 			);
 			name = Ribs_Tutorial;
+			packageProductDependencies = (
+				5AD3420F2A3C3D0D00A4339D /* RIBs */,
+				5AD3422F2A3C4B6F00A4339D /* SnapKit */,
+			);
 			productName = Ribs_Tutorial;
 			productReference = 5AD341DB2A3C3CED00A4339D /* Ribs_Tutorial.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +286,10 @@
 				Base,
 			);
 			mainGroup = 5AD341D22A3C3CED00A4339D;
+			packageReferences = (
+				5AD3420E2A3C3D0D00A4339D /* XCRemoteSwiftPackageReference "RIBs" */,
+				5AD3422E2A3C4B6F00A4339D /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 5AD341DC2A3C3CED00A4339D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,8 +333,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD3422A2A3C3F1200A4339D /* LoggedOutRouter.swift in Sources */,
+				5AD342172A3C3D2600A4339D /* LaunchBuilder.swift in Sources */,
+				5AD3422C2A3C3F1200A4339D /* LoggedOutBuilder.swift in Sources */,
+				5AD342212A3C3EDF00A4339D /* LoggedInViewController.swift in Sources */,
+				5AD3421B2A3C3DB700A4339D /* AppComponent.swift in Sources */,
+				5AD342182A3C3D2600A4339D /* LaunchInteractor.swift in Sources */,
+				5AD3422B2A3C3F1200A4339D /* LoggedOutViewController.swift in Sources */,
 				5AD341E32A3C3CED00A4339D /* ViewController.swift in Sources */,
+				5AD342162A3C3D2600A4339D /* LaunchViewController.swift in Sources */,
+				5AD3422D2A3C3F1200A4339D /* LoggedOutInteractor.swift in Sources */,
+				5AD342152A3C3D2600A4339D /* LaunchRouter.swift in Sources */,
+				5AD342232A3C3EDF00A4339D /* LoggedInInteractor.swift in Sources */,
 				5AD341DF2A3C3CED00A4339D /* AppDelegate.swift in Sources */,
+				5AD342202A3C3EDF00A4339D /* LoggedInRouter.swift in Sources */,
+				5AD342222A3C3EDF00A4339D /* LoggedInBuilder.swift in Sources */,
 				5AD341E12A3C3CED00A4339D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -602,6 +690,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5AD3420E2A3C3D0D00A4339D /* XCRemoteSwiftPackageReference "RIBs" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/uber/RIBs";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.2;
+			};
+		};
+		5AD3422E2A3C4B6F00A4339D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5AD3420F2A3C3D0D00A4339D /* RIBs */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AD3420E2A3C3D0D00A4339D /* XCRemoteSwiftPackageReference "RIBs" */;
+			productName = RIBs;
+		};
+		5AD3422F2A3C4B6F00A4339D /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AD3422E2A3C4B6F00A4339D /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5AD341D32A3C3CED00A4339D /* Project object */;
 }
