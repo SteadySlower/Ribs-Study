@@ -14,8 +14,7 @@ protocol LaunchInteractable: Interactable, LoggedOutListener, LoggedInListener {
 
 // ~viewcontrollable = 라우터가 뷰 계층을 조작하기 위해 호출하는 메소드를 선언
 protocol LaunchViewControllable: ViewControllable {
-    func present(viewController: ViewControllable)
-    func dismiss(viewController: ViewControllable)
+
 }
 
 final class LaunchRouter: ViewableRouter<LaunchInteractable, LaunchViewControllable>, LaunchRouting {

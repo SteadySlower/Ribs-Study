@@ -23,15 +23,4 @@ final class LaunchViewController: UIViewController, LaunchPresentable, LaunchVie
         super.viewDidLoad()
         self.view.backgroundColor = .white
     }
-    
-    func present(viewController: ViewControllable) {
-        viewController.uiviewController.modalPresentationStyle = .fullScreen
-        self.present(viewController.uiviewController, animated: false, completion: nil)
-    }
-    
-    func dismiss(viewController: ViewControllable) {
-        if presentedViewController === viewController.uiviewController {
-            dismiss(animated: false)
-        }
-    }
 }

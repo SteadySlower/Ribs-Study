@@ -11,6 +11,7 @@
 		0663B9E82A3D1211004333C1 /* RootTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663B9E42A3D1211004333C1 /* RootTabViewController.swift */; };
 		0663B9E92A3D1211004333C1 /* RootTabBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663B9E52A3D1211004333C1 /* RootTabBuilder.swift */; };
 		0663B9EA2A3D1211004333C1 /* RootTabInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663B9E62A3D1211004333C1 /* RootTabInteractor.swift */; };
+		0663B9F02A3D134D004333C1 /* ViewControllable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663B9EF2A3D134D004333C1 /* ViewControllable+.swift */; };
 		5AD341DF2A3C3CED00A4339D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD341DE2A3C3CED00A4339D /* AppDelegate.swift */; };
 		5AD341E12A3C3CED00A4339D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD341E02A3C3CED00A4339D /* SceneDelegate.swift */; };
 		5AD341E32A3C3CED00A4339D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD341E22A3C3CED00A4339D /* ViewController.swift */; };
@@ -59,6 +60,7 @@
 		0663B9E42A3D1211004333C1 /* RootTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabViewController.swift; sourceTree = "<group>"; };
 		0663B9E52A3D1211004333C1 /* RootTabBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBuilder.swift; sourceTree = "<group>"; };
 		0663B9E62A3D1211004333C1 /* RootTabInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabInteractor.swift; sourceTree = "<group>"; };
+		0663B9EF2A3D134D004333C1 /* ViewControllable+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewControllable+.swift"; sourceTree = "<group>"; };
 		5AD341DB2A3C3CED00A4339D /* Ribs_Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ribs_Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD341DE2A3C3CED00A4339D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AD341E02A3C3CED00A4339D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +127,14 @@
 			path = RootTab;
 			sourceTree = "<group>";
 		};
+		0663B9EE2A3D133D004333C1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0663B9EF2A3D134D004333C1 /* ViewControllable+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		5AD341D22A3C3CED00A4339D = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +158,7 @@
 		5AD341DD2A3C3CED00A4339D /* Ribs_Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				0663B9EE2A3D133D004333C1 /* Extension */,
 				0663B9E22A3D11F0004333C1 /* RootTab */,
 				5AD342252A3C3EED00A4339D /* LoggedOut */,
 				5AD342242A3C3EE400A4339D /* LoggedIn */,
@@ -358,6 +369,7 @@
 				5AD342172A3C3D2600A4339D /* LaunchBuilder.swift in Sources */,
 				5AD3422C2A3C3F1200A4339D /* LoggedOutBuilder.swift in Sources */,
 				5AD342212A3C3EDF00A4339D /* LoggedInViewController.swift in Sources */,
+				0663B9F02A3D134D004333C1 /* ViewControllable+.swift in Sources */,
 				5AD3421B2A3C3DB700A4339D /* AppComponent.swift in Sources */,
 				5AD342182A3C3D2600A4339D /* LaunchInteractor.swift in Sources */,
 				0663B9E82A3D1211004333C1 /* RootTabViewController.swift in Sources */,
