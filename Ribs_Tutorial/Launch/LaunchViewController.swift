@@ -26,12 +26,12 @@ final class LaunchViewController: UIViewController, LaunchPresentable, LaunchVie
     
     func present(viewController: ViewControllable) {
         viewController.uiviewController.modalPresentationStyle = .fullScreen
-        self.present(viewController.uiviewController, animated: true, completion: nil)
+        self.present(viewController.uiviewController, animated: false, completion: nil)
     }
     
     func dismiss(viewController: ViewControllable) {
         if presentedViewController === viewController.uiviewController {
-            dismiss(animated: true)
+            dismiss(animated: false)
         }
     }
 }
