@@ -1,5 +1,5 @@
 //
-//  RootTabInteractor.swift
+//  KanjiListInteractor.swift
 //  Ribs_Tutorial
 //
 //  Created by JW Moon on 2023/06/17.
@@ -8,27 +8,27 @@
 import RIBs
 import RxSwift
 
-protocol RootTabRouting: ViewableRouting {
+protocol KanjiListRouting: ViewableRouting {
     // TODO: Declare methods the interactor can invoke to manage sub-tree via the router.
 }
 
-protocol RootTabPresentable: Presentable {
-    var listener: RootTabPresentableListener? { get set }
+protocol KanjiListPresentable: Presentable {
+    var listener: KanjiListPresentableListener? { get set }
     // TODO: Declare methods the interactor can invoke the presenter to present data.
 }
 
-protocol RootTabListener: AnyObject {
+protocol KanjiListListener: AnyObject {
     // TODO: Declare methods the interactor can invoke to communicate with other RIBs.
 }
 
-final class RootTabInteractor: PresentableInteractor<RootTabPresentable>, RootTabInteractable, RootTabPresentableListener {
+final class KanjiListInteractor: PresentableInteractor<KanjiListPresentable>, KanjiListInteractable, KanjiListPresentableListener {
 
-    weak var router: RootTabRouting?
-    weak var listener: RootTabListener?
+    weak var router: KanjiListRouting?
+    weak var listener: KanjiListListener?
 
     // TODO: Add additional dependencies to constructor. Do not perform any logic
     // in constructor.
-    override init(presenter: RootTabPresentable) {
+    override init(presenter: KanjiListPresentable) {
         super.init(presenter: presenter)
         presenter.listener = self
     }

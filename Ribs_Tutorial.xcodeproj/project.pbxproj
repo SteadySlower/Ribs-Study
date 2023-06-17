@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0663B9E72A3D1211004333C1 /* RootTabRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663B9E32A3D1211004333C1 /* RootTabRouter.swift */; };
-		0663B9E82A3D1211004333C1 /* RootTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663B9E42A3D1211004333C1 /* RootTabViewController.swift */; };
-		0663B9E92A3D1211004333C1 /* RootTabBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663B9E52A3D1211004333C1 /* RootTabBuilder.swift */; };
-		0663B9EA2A3D1211004333C1 /* RootTabInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663B9E62A3D1211004333C1 /* RootTabInteractor.swift */; };
 		0663B9F02A3D134D004333C1 /* ViewControllable+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663B9EF2A3D134D004333C1 /* ViewControllable+.swift */; };
+		0663B9F72A3D1536004333C1 /* BookListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663B9F32A3D1536004333C1 /* BookListRouter.swift */; };
+		0663B9F82A3D1536004333C1 /* BookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663B9F42A3D1536004333C1 /* BookListViewController.swift */; };
+		0663B9F92A3D1536004333C1 /* BookListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663B9F52A3D1536004333C1 /* BookListBuilder.swift */; };
+		0663B9FA2A3D1536004333C1 /* BookListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663B9F62A3D1536004333C1 /* BookListInteractor.swift */; };
+		0663B9FF2A3D1544004333C1 /* KanjiListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663B9FB2A3D1544004333C1 /* KanjiListRouter.swift */; };
+		0663BA002A3D1544004333C1 /* KanjiListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663B9FC2A3D1544004333C1 /* KanjiListViewController.swift */; };
+		0663BA012A3D1544004333C1 /* KanjiListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663B9FD2A3D1544004333C1 /* KanjiListBuilder.swift */; };
+		0663BA022A3D1544004333C1 /* KanjiListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0663B9FE2A3D1544004333C1 /* KanjiListInteractor.swift */; };
 		5AD341DF2A3C3CED00A4339D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD341DE2A3C3CED00A4339D /* AppDelegate.swift */; };
 		5AD341E12A3C3CED00A4339D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD341E02A3C3CED00A4339D /* SceneDelegate.swift */; };
 		5AD341E32A3C3CED00A4339D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD341E22A3C3CED00A4339D /* ViewController.swift */; };
@@ -56,11 +60,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0663B9E32A3D1211004333C1 /* RootTabRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabRouter.swift; sourceTree = "<group>"; };
-		0663B9E42A3D1211004333C1 /* RootTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabViewController.swift; sourceTree = "<group>"; };
-		0663B9E52A3D1211004333C1 /* RootTabBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBuilder.swift; sourceTree = "<group>"; };
-		0663B9E62A3D1211004333C1 /* RootTabInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabInteractor.swift; sourceTree = "<group>"; };
 		0663B9EF2A3D134D004333C1 /* ViewControllable+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewControllable+.swift"; sourceTree = "<group>"; };
+		0663B9F32A3D1536004333C1 /* BookListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListRouter.swift; sourceTree = "<group>"; };
+		0663B9F42A3D1536004333C1 /* BookListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListViewController.swift; sourceTree = "<group>"; };
+		0663B9F52A3D1536004333C1 /* BookListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListBuilder.swift; sourceTree = "<group>"; };
+		0663B9F62A3D1536004333C1 /* BookListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListInteractor.swift; sourceTree = "<group>"; };
+		0663B9FB2A3D1544004333C1 /* KanjiListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiListRouter.swift; sourceTree = "<group>"; };
+		0663B9FC2A3D1544004333C1 /* KanjiListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiListViewController.swift; sourceTree = "<group>"; };
+		0663B9FD2A3D1544004333C1 /* KanjiListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiListBuilder.swift; sourceTree = "<group>"; };
+		0663B9FE2A3D1544004333C1 /* KanjiListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiListInteractor.swift; sourceTree = "<group>"; };
 		5AD341DB2A3C3CED00A4339D /* Ribs_Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ribs_Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD341DE2A3C3CED00A4339D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AD341E02A3C3CED00A4339D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,23 +124,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0663B9E22A3D11F0004333C1 /* RootTab */ = {
-			isa = PBXGroup;
-			children = (
-				0663B9E32A3D1211004333C1 /* RootTabRouter.swift */,
-				0663B9E42A3D1211004333C1 /* RootTabViewController.swift */,
-				0663B9E52A3D1211004333C1 /* RootTabBuilder.swift */,
-				0663B9E62A3D1211004333C1 /* RootTabInteractor.swift */,
-			);
-			path = RootTab;
-			sourceTree = "<group>";
-		};
 		0663B9EE2A3D133D004333C1 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				0663B9EF2A3D134D004333C1 /* ViewControllable+.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		0663B9F12A3D14F3004333C1 /* BookList */ = {
+			isa = PBXGroup;
+			children = (
+				0663B9F32A3D1536004333C1 /* BookListRouter.swift */,
+				0663B9F42A3D1536004333C1 /* BookListViewController.swift */,
+				0663B9F52A3D1536004333C1 /* BookListBuilder.swift */,
+				0663B9F62A3D1536004333C1 /* BookListInteractor.swift */,
+			);
+			path = BookList;
+			sourceTree = "<group>";
+		};
+		0663B9F22A3D1524004333C1 /* KanjiList */ = {
+			isa = PBXGroup;
+			children = (
+				0663B9FB2A3D1544004333C1 /* KanjiListRouter.swift */,
+				0663B9FC2A3D1544004333C1 /* KanjiListViewController.swift */,
+				0663B9FD2A3D1544004333C1 /* KanjiListBuilder.swift */,
+				0663B9FE2A3D1544004333C1 /* KanjiListInteractor.swift */,
+			);
+			path = KanjiList;
 			sourceTree = "<group>";
 		};
 		5AD341D22A3C3CED00A4339D = {
@@ -158,8 +177,9 @@
 		5AD341DD2A3C3CED00A4339D /* Ribs_Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				0663B9F22A3D1524004333C1 /* KanjiList */,
+				0663B9F12A3D14F3004333C1 /* BookList */,
 				0663B9EE2A3D133D004333C1 /* Extension */,
-				0663B9E22A3D11F0004333C1 /* RootTab */,
 				5AD342252A3C3EED00A4339D /* LoggedOut */,
 				5AD342242A3C3EE400A4339D /* LoggedIn */,
 				5AD342192A3C3D2A00A4339D /* Launch */,
@@ -364,7 +384,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0663B9EA2A3D1211004333C1 /* RootTabInteractor.swift in Sources */,
 				5AD3422A2A3C3F1200A4339D /* LoggedOutRouter.swift in Sources */,
 				5AD342172A3C3D2600A4339D /* LaunchBuilder.swift in Sources */,
 				5AD3422C2A3C3F1200A4339D /* LoggedOutBuilder.swift in Sources */,
@@ -372,19 +391,24 @@
 				0663B9F02A3D134D004333C1 /* ViewControllable+.swift in Sources */,
 				5AD3421B2A3C3DB700A4339D /* AppComponent.swift in Sources */,
 				5AD342182A3C3D2600A4339D /* LaunchInteractor.swift in Sources */,
-				0663B9E82A3D1211004333C1 /* RootTabViewController.swift in Sources */,
+				0663B9FA2A3D1536004333C1 /* BookListInteractor.swift in Sources */,
 				5AD3422B2A3C3F1200A4339D /* LoggedOutViewController.swift in Sources */,
 				5AD341E32A3C3CED00A4339D /* ViewController.swift in Sources */,
 				5AD342162A3C3D2600A4339D /* LaunchViewController.swift in Sources */,
 				5AD3422D2A3C3F1200A4339D /* LoggedOutInteractor.swift in Sources */,
 				5AD342152A3C3D2600A4339D /* LaunchRouter.swift in Sources */,
 				5AD342232A3C3EDF00A4339D /* LoggedInInteractor.swift in Sources */,
+				0663B9FF2A3D1544004333C1 /* KanjiListRouter.swift in Sources */,
 				5AD341DF2A3C3CED00A4339D /* AppDelegate.swift in Sources */,
+				0663B9F82A3D1536004333C1 /* BookListViewController.swift in Sources */,
 				5AD342202A3C3EDF00A4339D /* LoggedInRouter.swift in Sources */,
-				0663B9E72A3D1211004333C1 /* RootTabRouter.swift in Sources */,
 				5AD342222A3C3EDF00A4339D /* LoggedInBuilder.swift in Sources */,
+				0663B9F72A3D1536004333C1 /* BookListRouter.swift in Sources */,
 				5AD341E12A3C3CED00A4339D /* SceneDelegate.swift in Sources */,
-				0663B9E92A3D1211004333C1 /* RootTabBuilder.swift in Sources */,
+				0663B9F92A3D1536004333C1 /* BookListBuilder.swift in Sources */,
+				0663BA022A3D1544004333C1 /* KanjiListInteractor.swift in Sources */,
+				0663BA012A3D1544004333C1 /* KanjiListBuilder.swift in Sources */,
+				0663BA002A3D1544004333C1 /* KanjiListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,36 +1,34 @@
 //
-//  LoggedInInteractor.swift
+//  BookListInteractor.swift
 //  Ribs_Tutorial
 //
-//  Created by Jong Won Moon on 2023/06/16.
+//  Created by JW Moon on 2023/06/17.
 //
 
 import RIBs
 import RxSwift
 
-protocol LoggedInRouting: ViewableRouting {
+protocol BookListRouting: ViewableRouting {
     // TODO: Declare methods the interactor can invoke to manage sub-tree via the router.
-    func setTabs()
 }
 
-protocol LoggedInPresentable: Presentable {
-    var listener: LoggedInPresentableListener? { get set }
+protocol BookListPresentable: Presentable {
+    var listener: BookListPresentableListener? { get set }
     // TODO: Declare methods the interactor can invoke the presenter to present data.
 }
 
-protocol LoggedInListener: AnyObject {
+protocol BookListListener: AnyObject {
     // TODO: Declare methods the interactor can invoke to communicate with other RIBs.
-    func didLogout()
 }
 
-final class LoggedInInteractor: PresentableInteractor<LoggedInPresentable>, LoggedInInteractable, LoggedInPresentableListener {
+final class BookListInteractor: PresentableInteractor<BookListPresentable>, BookListInteractable, BookListPresentableListener {
 
-    weak var router: LoggedInRouting?
-    weak var listener: LoggedInListener?
+    weak var router: BookListRouting?
+    weak var listener: BookListListener?
 
     // TODO: Add additional dependencies to constructor. Do not perform any logic
     // in constructor.
-    override init(presenter: LoggedInPresentable) {
+    override init(presenter: BookListPresentable) {
         super.init(presenter: presenter)
         presenter.listener = self
     }
@@ -38,15 +36,10 @@ final class LoggedInInteractor: PresentableInteractor<LoggedInPresentable>, Logg
     override func didBecomeActive() {
         super.didBecomeActive()
         // TODO: Implement business logic here.
-        router?.setTabs()
     }
 
     override func willResignActive() {
         super.willResignActive()
         // TODO: Pause any business logic.
-    }
-    
-    func logout() {
-        listener?.didLogout()
     }
 }

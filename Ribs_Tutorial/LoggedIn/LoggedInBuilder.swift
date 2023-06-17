@@ -17,6 +17,15 @@ final class LoggedInComponent: Component<LoggedInDependency> {
     // TODO: Declare 'fileprivate' dependencies that are only used by this RIB.
 }
 
+extension LoggedInComponent: BookListDependency {
+    
+}
+
+extension LoggedInComponent: KanjiListDependency {
+    
+}
+
+
 // MARK: - Builder
 
 protocol LoggedInBuildable: Buildable {
@@ -34,6 +43,12 @@ final class LoggedInBuilder: Builder<LoggedInDependency>, LoggedInBuildable {
         let viewController = LoggedInViewController()
         let interactor = LoggedInInteractor(presenter: viewController)
         interactor.listener = listener
-        return LoggedInRouter(interactor: interactor, viewController: viewController)
+        
+        let bookListBuilder = BookListBuilder(dependency: component)
+        let kanjiListBuilder = KanjiListBuilder(dependency: component)
+        return LoggedInRouter(interactor: interactor,
+                              viewController: viewController,
+                              bookList: bookListBuilder,
+                              kanjiList: kanjiListBuilder)
     }
 }
