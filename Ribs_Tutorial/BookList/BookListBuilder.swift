@@ -17,6 +17,10 @@ final class BookListComponent: Component<BookListDependency> {
     // TODO: Declare 'fileprivate' dependencies that are only used by this RIB.
 }
 
+extension BookListComponent: WordListDependency {
+    
+}
+
 // MARK: - Builder
 
 protocol BookListBuildable: Buildable {
@@ -34,6 +38,10 @@ final class BookListBuilder: Builder<BookListDependency>, BookListBuildable {
         let viewController = BookListViewController()
         let interactor = BookListInteractor(presenter: viewController)
         interactor.listener = listener
-        return BookListRouter(interactor: interactor, viewController: viewController)
+        
+        let wordListBuilder = WordListBuilder(dependency: component)
+        return BookListRouter(interactor: interactor,
+                              viewController: viewController,
+                              wordListBuilder: wordListBuilder)
     }
 }

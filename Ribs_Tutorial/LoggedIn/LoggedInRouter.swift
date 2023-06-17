@@ -42,7 +42,7 @@ final class LoggedInRouter: ViewableRouter<LoggedInInteractable, LoggedInViewCon
         attachChild(kanjiListRouting)
         
         let viewControllers = [
-            bookListRouting.viewControllable,
+            NavigationViewControllable(root: bookListRouting.viewControllable),
             kanjiListRouting.viewControllable
         ]
         
